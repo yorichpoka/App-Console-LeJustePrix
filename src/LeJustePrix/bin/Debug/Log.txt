@@ -100,3 +100,278 @@
 -----------------------
 22/10/2018 15:07:27.625 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 22/10/2018 15:07:27 
 -----------------------
+26/10/2018 18:15:44.104 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:15:44 
+-----------------------
+26/10/2018 18:25:55.275 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:25:55 
+-----------------------
+26/10/2018 18:26:42.728 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:26:42 
+-----------------------
+26/10/2018 18:27:35.168 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:27:35 
+-----------------------
+26/10/2018 18:28:23.708 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:28:23 
+-----------------------
+26/10/2018 18:28:59.797 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:28:59 
+-----------------------
+26/10/2018 18:29:40.710 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:29:40 
+-----------------------
+26/10/2018 18:30:04.927 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:30:04 
+-----------------------
+26/10/2018 18:30:35.235 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:30:35 
+-----------------------
+26/10/2018 18:32:39.602 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:32:39 
+-----------------------
+26/10/2018 18:32:55.933 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:32:55 
+-----------------------
+26/10/2018 18:33:18.889 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:33:18 
+-----------------------
+26/10/2018 18:33:47.809 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:33:47 
+-----------------------
+26/10/2018 18:34:00.264 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:34:00 
+-----------------------
+26/10/2018 18:35:14.077 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:35:14 
+-----------------------
+26/10/2018 18:35:29.729 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:35:29 
+-----------------------
+26/10/2018 18:39:07.986 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:39:07 
+-----------------------
+26/10/2018 18:45:32.753 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:45:32 
+-----------------------
+26/10/2018 18:45:49.690 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:45:49 
+-----------------------
+26/10/2018 18:46:57.351 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:46:57 
+-----------------------
+26/10/2018 18:47:00.045 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.ArgumentException: Increment must be grant thant 0.
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 83 
+-----------------------
+26/10/2018 18:47:24.619 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:47:24 
+-----------------------
+26/10/2018 18:47:26.320 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.ArgumentException: Increment must be grant thant 0.
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 83 
+-----------------------
+26/10/2018 18:47:30.116 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.OverflowException: L'opération arithmétique a provoqué un dépassement de capacité.
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 79 
+-----------------------
+26/10/2018 18:47:31.329 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 79 
+-----------------------
+26/10/2018 18:49:19.784 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:49:19 
+-----------------------
+26/10/2018 18:49:22.331 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.ArgumentException: Increment must be grant thant 0.
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 83 
+-----------------------
+26/10/2018 18:49:34.539 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:49:34 
+-----------------------
+26/10/2018 18:49:35.720 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.ArgumentException: Increment must be grant thant 0.
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 83 
+-----------------------
+26/10/2018 18:51:44.648 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:51:44 
+-----------------------
+26/10/2018 18:51:45.808 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.ArgumentException: Increment must be grant thant 0.
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 83 
+-----------------------
+26/10/2018 18:52:36.095 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:52:36 
+-----------------------
+26/10/2018 18:52:37.501 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.ArgumentException: Increment must be grant thant 0.
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 83 
+-----------------------
+26/10/2018 18:54:13.073 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:54:13 
+-----------------------
+26/10/2018 18:55:54.382 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:55:54 
+-----------------------
+26/10/2018 18:56:15.794 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:56:15 
+-----------------------
+26/10/2018 18:58:49.009 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 18:58:48 
+-----------------------
+26/10/2018 19:00:51.241 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:00:51 
+-----------------------
+26/10/2018 19:01:59.859 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:01:59 
+-----------------------
+26/10/2018 19:02:29.404 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:02:29 
+-----------------------
+26/10/2018 19:02:56.686 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:02:56 
+-----------------------
+26/10/2018 19:03:28.971 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:03:28 
+-----------------------
+26/10/2018 19:07:18.395 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:07:18 
+-----------------------
+26/10/2018 19:07:42.182 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:07:42 
+-----------------------
+26/10/2018 19:07:58.129 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:07:58 
+-----------------------
+26/10/2018 19:08:06.235 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:08:06 
+-----------------------
+26/10/2018 19:08:27.616 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:08:27 
+-----------------------
+26/10/2018 19:10:07.700 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:10:07 
+-----------------------
+26/10/2018 19:17:07.474 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:17:07 
+-----------------------
+26/10/2018 19:18:40.282 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:18:40 
+-----------------------
+26/10/2018 19:18:53.467 | INFO | [1] | LeJustePrix.Program.Main | Démarrage de l'application 26/10/2018 19:18:53 
+-----------------------
+26/10/2018 19:22:43.487 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 26/10/2018 19:22:43 
+-----------------------
+26/10/2018 19:23:58.677 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 26/10/2018 19:23:58 
+-----------------------
+26/10/2018 19:24:29.717 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 26/10/2018 19:24:29 
+-----------------------
+26/10/2018 19:33:44.854 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 26/10/2018 19:33:44 
+-----------------------
+30/10/2018 15:03:53.646 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 15:03:53 
+-----------------------
+30/10/2018 15:05:28.502 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 15:05:28 
+-----------------------
+30/10/2018 15:05:51.277 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 15:05:51 
+-----------------------
+30/10/2018 15:14:12.272 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 54 
+-----------------------
+30/10/2018 15:14:14.897 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 54 
+-----------------------
+30/10/2018 15:14:16.055 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 54 
+-----------------------
+30/10/2018 15:14:17.211 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 54 
+-----------------------
+30/10/2018 15:14:18.800 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 54 
+-----------------------
+30/10/2018 15:14:20.337 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 54 
+-----------------------
+30/10/2018 15:14:35.612 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 54 
+-----------------------
+30/10/2018 15:45:41.992 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 15:45:41 
+-----------------------
+30/10/2018 15:46:07.802 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 55 
+-----------------------
+30/10/2018 15:47:40.549 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 15:47:40 
+-----------------------
+30/10/2018 15:47:42.406 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 132 
+-----------------------
+30/10/2018 15:47:45.037 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 132 
+-----------------------
+30/10/2018 15:58:59.642 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 15:58:59 
+-----------------------
+30/10/2018 16:02:00.824 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:02:00 
+-----------------------
+30/10/2018 16:02:03.963 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 136 
+-----------------------
+30/10/2018 16:03:24.628 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:03:24 
+-----------------------
+30/10/2018 16:04:25.913 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:04:25 
+-----------------------
+30/10/2018 16:04:42.314 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 55 
+-----------------------
+30/10/2018 16:06:40.970 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:06:40 
+-----------------------
+30/10/2018 16:07:32.477 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:07:32 
+-----------------------
+30/10/2018 16:08:02.602 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:08:02 
+-----------------------
+30/10/2018 16:08:17.918 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:08:17 
+-----------------------
+30/10/2018 16:09:49.286 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:09:49 
+-----------------------
+30/10/2018 16:13:34.820 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:13:34 
+-----------------------
+30/10/2018 16:13:43.877 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 151 
+-----------------------
+30/10/2018 16:13:45.039 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 151 
+-----------------------
+30/10/2018 16:13:46.119 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 151 
+-----------------------
+30/10/2018 16:13:47.181 | ERROR | [1] | LeJustePrix.Program.InitCountOfPlayers | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à LeJustePrix.Program.InitCountOfPlayers() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Program.cs:ligne 151 
+-----------------------
+30/10/2018 16:13:54.954 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 55 
+-----------------------
+30/10/2018 16:13:56.608 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 55 
+-----------------------
+30/10/2018 16:13:57.755 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 55 
+-----------------------
+30/10/2018 16:14:00.118 | ERROR | [1] | LeJustePrix.Models.Player.Play | System.FormatException: Le format de la chaîne d'entrée est incorrect.
+   à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Convert.ToInt32(String value)
+   à LeJustePrix.Models.Player.Play() dans E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\Models\Player.cs:ligne 55 
+-----------------------
+30/10/2018 16:14:38.933 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:14:38 
+-----------------------
+30/10/2018 16:16:09.376 | INFO | [1] | LeJustePrix.Program.Head | Démarrage de l'application 30/10/2018 16:16:09 
+-----------------------

@@ -11,6 +11,7 @@ namespace LeJustePrix
     class Program
     {
         public static Player[] players { get; set; }
+        public static Stack<JustePrix> justePrix { get; set; }
 
         static void Main(string[] args)
         {
@@ -19,38 +20,113 @@ namespace LeJustePrix
             #endregion
 
             #region #.2. Head
+            Head();
+            #endregion
+
+            #region #.3. Body
+            InitCountOfPlayers();
+
+            InitAllPlayers();
+
+            GenerateJustePrix();
+
+            Body();
+            #endregion
+
+            #region #.4. Footer
+            Footer();
+            #endregion
+
+            AppClass.ConsoleReadLine();
+        }
+
+        private static void Footer()
+        {
+            AppClass.ConsoleForegroundColor();
+
             Console.WriteLine(
-                string.Empty.NextLine().TabLine().TabLine() +
-                "*********************".NextLine().TabLine().TabLine() + 
-                "**  Le Juste Prix  **".NextLine().TabLine().TabLine() + 
-                "*********************"
+                $"Fin du programme".AppIncrementBefore(" ", 4).AppNextLineBefore(2)
+            );
+
+            Console.WriteLine(
+                "----------------".AppIncrementBefore(" ", 4)
+            );
+        }
+
+        static void Head()
+        {
+            Console.WriteLine(
+                "*********************".AppTabLineBefore(2).AppNextLineBefore().AppNextLineAfter() +
+                "**  Le Juste Prix  **".AppTabLineBefore(2).AppNextLineAfter() +
+                "*********************".AppTabLineBefore(2)
             );
 
             // -- Afficharge de la version de l'application -- //
             Console.WriteLine(
-                string.Empty.NextLine().TabLine().TabLine() +
-                "   V: " + AppSettings.APP_VERSION_BUILD.NextLine().TabLine().TabLine() + 
-                "   -------------"
+                "V: ".AppIncrementBefore(" ", 3).AppTabLineBefore(2).AppNextLineBefore() +
+                AppSettings.APP_VERSION_BUILD +
+                "-------------".AppIncrementBefore(" ", 3).AppTabLineBefore(2).AppNextLineBefore()
+            );
+
+            // -- Describe somes informations about the application -- //
+            Console.WriteLine(
+                "Informations".AppIncrementBefore(" ", 3).AppTabLineBefore(2).AppNextLineBefore() +
+                "------------".AppIncrementBefore(" ", 3).AppTabLineBefore(2).AppNextLineBefore()
+
+            );
+
+            foreach (var line in System.IO.File.ReadAllLines("Readme.txt"))
+            {
+                Console.WriteLine(line.AppIncrementBefore(" ", 3));
+            }
+
+            Console.WriteLine(
+                "------------".AppIncrementBefore(" ", 3).AppTabLineBefore(2)
             );
 
             // -- Log -- //
             AppClass.Log.Info("Démarrage de l'application " + DateTime.Now.ToString());
-            #endregion
+        }
 
-            #region Init game
-            InitCountOfPlayers();
+        static void Body()
+        {
+            int index = 0;
+            Boolean isWinner = false;
 
-            InitAllPlayers();
-            #endregion
+            do
+            {
+                for (index = 0; index < players.Length; index ++)
+                {
+                    KeyValuePair<AppState, AppPlusMoins?> appState = players[index].Play();
 
-            Console.ReadLine();
+                    if (appState.Key == AppState.Echec)
+                    {
+                        PlusMoinsValue(appState.Value.Value);
+                    }
+                    else if (appState.Key == AppState.ReloadJustePrix)
+                    {
+                        GenerateJustePrix(true);
+                    }
+                    else
+                    {
+                        players[index].Win();
+
+                        isWinner = true;
+                        break;
+                    }
+                }
+
+                index = 0;
+            } while (!isWinner);
         }
 
         static void Init()
         {
-            Console.ForegroundColor = ConsoleColor.White;
+            AppClass.ConsoleForegroundColor();
 
             log4net.Config.XmlConfigurator.Configure();
+            
+            justePrix = new Stack<JustePrix>();
         }
 
         static void InitCountOfPlayers()
@@ -59,14 +135,25 @@ namespace LeJustePrix
 
             do
             {
-                try {
+
+                try
+                {
+                    AppClass.ConsoleForegroundColor(ConsoleColor.Yellow);
+
                     Console.Write(
-                        string.Empty.NextLine().TabLine() + " -> Nombre de joueurs : "
+                        " -> Nombre de joueurs : ".AppTabLineBefore().AppNextLineBefore()
                     );
 
-                    var value = Console.ReadLine();
+                    AppClass.ConsoleForegroundColor();
+
+                    var value = AppClass.ConsoleReadLine();
 
                     players = new Player[int.Parse(value)];
+
+                    if (int.Parse(value) <= 0)
+                    {
+                        throw new ArgumentException("Increment must be grant thant 0.");
+                    }
 
                     error = false;
                 }
@@ -95,26 +182,58 @@ namespace LeJustePrix
             
         }
 
-        static void IncorectValue()
+        public static void IncorectValue()
         {
-            Console.ForegroundColor = ConsoleColor.Red;
+            AppClass.ConsoleForegroundColor(ConsoleColor.Red);
 
             Console.WriteLine(
-                string.Empty.NextLine().TabLine() + " !-> La valeur entrée est incorrect <-!"
+                "!-> La valeur entrée est incorrect <-!".AppIncrementBefore(" ", 6).AppTabLineBefore().AppNextLineBefore()
             );
 
-            Console.ForegroundColor = ConsoleColor.White;
+            AppClass.ConsoleForegroundColor();
         }
 
-        static void GenerateJustePrix()
+        public static void PlusMoinsValue(AppPlusMoins value)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            AppClass.ConsoleForegroundColor(ConsoleColor.Cyan);
 
             Console.WriteLine(
-                string.Empty.NextLine().TabLine() + $" !!-> Le juste prix est dans la plage [{0}, {0}] <-!!"
+                $"!-> Faux, le juste prix est {value.ToString()} <-!".AppIncrementBefore(" ", 6).AppTabLineBefore().AppNextLineBefore()
             );
 
-            Console.ForegroundColor = ConsoleColor.White;
+            AppClass.ConsoleForegroundColor();
+        }
+
+        static void GenerateJustePrix(Boolean reset = false)
+        {
+            Console.WriteLine(
+                "-------------".AppIncrementBefore(" ", 3).AppTabLineBefore(2).AppNextLineBefore()
+            );
+
+            AppClass.ConsoleForegroundColor(ConsoleColor.Green);
+
+            if (!reset)
+            {
+                justePrix.Push(new JustePrix());
+
+                Console.WriteLine(
+                    $"!!-> Le juste prix est dans la plage [{justePrix.Peek().min}, {justePrix.Peek().max}] <-!!".AppIncrementBefore(" ", 1).AppTabLineBefore()
+                );
+            }
+            else
+            {
+                justePrix.Push(new JustePrix(justePrix.Peek().min, justePrix.Peek().value));
+
+                Console.WriteLine(
+                    $"!!-> Le juste prix a changé, il est désormais est dans la plage [{justePrix.Peek().min}, {justePrix.Peek().max}] <-!!".AppIncrementBefore(" ", 1)
+                );
+            }
+
+            AppClass.ConsoleForegroundColor();
+
+            Console.WriteLine(
+                "-------------".AppIncrementBefore(" ", 3).AppTabLineBefore(2)
+            );
         }
     }
 }

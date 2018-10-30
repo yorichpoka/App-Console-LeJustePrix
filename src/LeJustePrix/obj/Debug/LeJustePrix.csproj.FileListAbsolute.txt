@@ -17,3 +17,4 @@ E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\bin\Debug\LeJu
 E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\bin\Debug\log4net.dll
 E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\bin\Debug\log4net.xml
 E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\obj\Debug\LeJustePrix.csproj.CopyComplete
+E:\DOCUMENTS\Le Juste Prix\Console-TP-LeJustePrix\src\LeJustePrix\obj\Debug\LeJustePrix.csprojAssemblyReference.cache
